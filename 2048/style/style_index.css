@@ -1,0 +1,62 @@
+body{
+	font-family: Arial;
+}
+header{
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+header h1{
+	font-size: 24px;
+}
+header a{
+	display: block;
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	margin: 0 auto;
+	background-color: #9376ab;
+	border-radius: 8px;
+	font-size: 18px;
+	color: #666;
+	text-decoration: none;
+	border: none;
+}
+header a:hover{
+	color: silver;
+}
+header p{
+	font-size: 20px;
+	color: silver;
+	margin-top: 0;
+}
+header #score{
+	color: #000;
+	font-size: 18px;
+	margin-left: 10px;
+}
+
+div#grid-container{
+	position: relative;
+/*	width: 460px;
+	height: 460px;*/
+	margin: 0 auto;
+	/*padding: 20px;*/
+	background-color: #bbada0;
+	/*border-radius: 8px;*/
+}
+div.grid-cell{
+	position: absolute;
+/*	width: 100px;
+	height: 100px;*/
+	/*margin: 20px;*/
+	background-color: #ccc0b3;
+	border-radius: 6px;
+}
+.number-cell{
+	/*font-size: 60px;*/
+	text-align: center;
+	font-weight: bold;
+	/*line-height: 100px;*/
+	position: absolute;
+}
